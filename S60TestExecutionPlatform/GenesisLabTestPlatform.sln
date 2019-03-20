@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExecutionPlatform", "S60TestExecutionPlatform\TestExecutionPlatform.csproj", "{AC238C43-3980-45DB-B3C0-C5ABA8E150CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Web.Tests", "ShaverShop\Demo.Web.Tests.csproj", "{A4B188BD-EFDB-4C48-ACE9-729D5C5083A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC238C43-3980-45DB-B3C0-C5ABA8E150CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC238C43-3980-45DB-B3C0-C5ABA8E150CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC238C43-3980-45DB-B3C0-C5ABA8E150CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC238C43-3980-45DB-B3C0-C5ABA8E150CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B188BD-EFDB-4C48-ACE9-729D5C5083A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B188BD-EFDB-4C48-ACE9-729D5C5083A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B188BD-EFDB-4C48-ACE9-729D5C5083A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B188BD-EFDB-4C48-ACE9-729D5C5083A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCCD37C0-5A6E-4E09-866D-AECD979E8C4E}
+	EndGlobalSection
+EndGlobal

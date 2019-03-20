@@ -1,0 +1,112 @@
+﻿{
+  "LayoutPage": {
+    "Url": "",
+    "SearchTextField": "#q",
+    "LocationIcon": ".fa.fa-map-marker",
+    "UserProfileIcon": ".fa.fa-user",
+    "CartIcon": ".fa.fa-shopping-cart",
+    "ProductTopCategoriesLinks": ".menu-category",
+    "PopUpYesButton": ".ui-dialog-buttonset>button:nth-of-type(1)"
+  },
+
+  "HomePage": {
+    "Url": "",
+    "SliderImage": ".slide.slide1>a>img"
+
+  },
+
+  "RegisterPage": {
+    "Url": "",
+    "FirstNameTextField": "#dwfrm_profile_customer_firstname",
+    "LastNameTextField": "#dwfrm_profile_customer_lastname",
+    "EmailTextField": "#dwfrm_profile_customer_email",
+    "ConfirmEmailTextField": "#dwfrm_profile_customer_emailconfirm",
+    "PasswordTextField": "#RegistrationForm>fieldset:nth-of-type(2)>div:nth-of-type(3)>div>input",
+    "ConfirmPasswordTextField": "#RegistrationForm>fieldset:nth-of-type(2)>div:nth-of-type(4)>div>input",
+    "ApplyButton": ".form-row.form-row-button>button"
+  },
+
+  "MyAccountPage": {
+    "UserPanelTabs": ".account-options>li",
+    "LogoutLink": ".account-logout>a"
+  },
+
+  "ProductDetailsPage": {
+    "Url": "http://demo-ap01-bardot.demandware.net/s/SiteGenesis/black-single-pleat-athletic-fit-wool-suit/25604524.html",
+    "ProductImage": ".primary-image",
+    "ColourCodeLink": "#product-content>.product-variations>ul>li:nth-of-type(1)>div:nth-of-type(2)>ul>li:nth-of-type(1)>a",
+    "SizePanelLink": ".size>li",
+    "SelectWidthLink": ".product-variations>ul>li:nth-of-type(3)>div>ul>li",
+    "QTYTextField": "#Quantity",
+    "AddToCartButton": "#add-to-cart",
+    "PricePanel": "#product-content .product-price"
+  },
+
+  "ShoppingCartPage": {
+    "Url": "/cart",
+    "ProductItemsSection": ".cart-row",
+    "ContinueShoppingLink": "#continue-shopping .button-text",
+    "CheckoutButton": "#checkout-form>fieldset>button",
+    "CouponCodeTextField": "#dwfrm_cart_couponCode",
+    "ApplyButton": "#add-coupon"
+  },
+
+  "ShippingDetailsPage": {
+    "Url": "",
+    "FirstNameTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_firstName",
+    "LastNameTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_lastName",
+    "AddressLineOneTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_address1",
+    "AddressLineTwoTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_address2",
+    "CityTextFields": "#dwfrm_singleshipping_shippingAddress_addressFields_city",
+    "ZipCodeTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_postal",
+    "CountryDropDownList": "#dwfrm_singleshipping_shippingAddress_addressFields_country",
+    "StateDropDownList": "#dwfrm_singleshipping_shippingAddress_addressFields_states_state",
+    "PhoneTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_phone",
+    "ContinueToBillingButton": ".button-fancy-large"
+  },
+
+  "BillingDetailsPage": {
+    "Url": "",
+    "FirstNameTextField": "#dwfrm_billing_billingAddress_addressFields_firstName",
+    "LastNameTextField": "#dwfrm_billing_billingAddress_addressFields_lastName",
+    "AddressLineOneTextField": "#dwfrm_billing_billingAddress_addressFields_address1",
+    "AddressLineTwoTextField": "#dwfrm_billing_billingAddress_addressFields_address2",
+    "CityTextField": "#dwfrm_billing_billingAddress_addressFields_city",
+    "ZipcodeTextField": "#dwfrm_billing_billingAddress_addressFields_postal",
+    "CountryDropDownList": "#dwfrm_billing_billingAddress_addressFields_country",
+    "StateDropDownList": "#dwfrm_billing_billingAddress_addressFields_states_state",
+    "PhoneTextField": "#dwfrm_billing_billingAddress_addressFields_phone",
+    "EmailTextField": "#dwfrm_billing_billingAddress_email_emailAddress",
+    "CouponCodeTextField": "#dwfrm_billing_couponCode",
+    "GiftCertificateTextField": "#dwfrm_billing_giftCertCode",
+    "PaymentOptionRadioButton": ".payment-method-options>div",
+    "CardNameTextField": "#dwfrm_billing_paymentMethods_creditCard_owner",
+    "CardTypeDropDownList": "#dwfrm_billing_paymentMethods_creditCard_type",
+    "NumberTextField": "#dwfrm_billing>fieldset:nth-of-type(3)>div:nth-of-type(3)>div:nth-of-type(3)>div>input",
+    "ExpirationMonthDropDownList": "#dwfrm_billing_paymentMethods_creditCard_expiration_month",
+    "ExpirationYearDropDownList": "#dwfrm_billing_paymentMethods_creditCard_expiration_year",
+    "SecurityCodeTextField": "#dwfrm_billing>fieldset:nth-of-type(3)>div:nth-of-type(3)>div:nth-of-type(5)>div>input",
+    "PlaceToPlaceOrderButton": ".button-fancy-large"
+  },
+
+  "CheckoutPage": {
+    "Url": "",
+    "CheckoutAsGuestButton": "button[name='dwfrm_login_unregistered']"
+
+  },
+
+  "PlaceOrderPage": {
+    "Url": "",
+    "ProductList": "#cart-table>tbody>tr",
+    "PlaceOrderButton": ".button-fancy-large",
+    "EditCartLink": ".back-to-cart"
+  },
+
+  "OrderConfirmationPage": {
+    "Url": "",
+    "OrderNumberText": ".order-number",
+    "OrderSummaryPanel": ".order-payment-summary",
+    "OrderPaymentSummaryPanel": ".order-payment-instruments"
+  }
+
+}

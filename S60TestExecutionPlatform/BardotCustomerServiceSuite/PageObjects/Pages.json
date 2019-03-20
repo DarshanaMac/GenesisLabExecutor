@@ -1,0 +1,66 @@
+﻿{
+  "BusinessManagerLoginPage": {
+    "Url": "/Sites-Site/default/ViewApplication-ProcessLogin",
+    "UsernameTextField": ".loginform>input:nth-of-type(1)",
+    "PasswordTextField": ".loginform>input:nth-of-type(2)",
+    "LoginButton": "button[name='login']"
+  },
+
+  "BusinessManagerPage": {
+    "MerchantToolsLink": ".merchant-tools-link>span:nth-of-type(1)",
+    "OrdersLink": "//a[text()='Orders']",
+    "OrderingLink": "//a[text()='Ordering']",
+    "AdministrationLink": "//span[contains(text(),'Administration')]",
+    "OperationsLink": "//td/a[contains(text(),'Operations')]",
+    "JobSchedulesLink": "//td/a[text()='Job Schedules']"
+  },
+
+  "OrdersPage": {
+    "OrderNuberTextField": "form[name='simple']>table>tbody>tr:nth-of-type(3)>td>table>tbody>tr>td:nth-of-type(2)>input",
+    "OrderSearchButton": "form[name='simple']>table>tbody>tr:nth-of-type(3)>td>table>tbody>tr>td:nth-of-type(4)>table>tbody>tr>td>button",
+    "OrderNumberLink": "form[name='OrderListForm']>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(2)>td>a",
+    "PaidStatusText": "//td[text()='Payment Status']/../../tr[2]/td[11]"
+  },
+
+  "ScheduleJobs": {
+    "Url": "/Sites-Site/default/ViewApplication-BM?csrf_token=Xb36WL9DZV0b_x-8y3xTxqvwIoAqIDI2xDcPbfAjrZisFhxX4L120toZXavEznx3vpJo9qbYom5dP1ssS7OvBR7NAUI9OBTEH82q5ChzvHDZ0aHL8jsgmMRaCAWKbMy9iqKA0Gx4-LT2AiyJHBn3OnBtQIn8EHnfIuj0p-cHRO3xrKgpLmc#/?job",
+    "ExportJobsLink": "//td/a[text()='Order Export']",
+    "RunNowButton": "//button/span[text()='Run Now']",
+    "ScheduleAndHistoryTab": "//ul[@class='dw-nc-tabs dw-nc-tabs-horizontal']/li[2]",
+    "JobExportStatusLabel": "//h2[text()='History']/../table/tbody[2]/tr/td[3]/span",
+    "RefundJobLink": "//td/a[contains(text(),'Refund Export')]"
+  },
+
+  "RefundExportPage": {
+    "JobExportStatusLabel": "//h2[text()='History']/../table/tbody[2]/tr/td[3]/span",
+    "ScheduleAndHistoryTab": "//ul[@class='dw-nc-tabs dw-nc-tabs-horizontal']/li[2]"
+  },
+
+  "CustomerSuitePage": {
+    "Url": "/Sites-bardot_au-Site/default/CSSuite-Home",
+    "UsernameTextField": ".//*[@id='dwfrm_login_username']",
+    "PasswordTextField": ".//*[@id='dwfrm_login']/input[2]",
+    "LogonButton": ".//*[@id='dwfrm_login']/input[4]",
+    "OrderNoTextField": "#OrderSearchForm_OrderNo",
+    "SearchButton": "input[name='searchOrder']",
+    "ExportStatus": "#id_order_results_table>table>tbody>tr>td:nth-of-type(4)",
+    "OriginalOrderNumberLink": "#id_order_results_table>table>tbody>tr>td:nth-of-type(2)",
+    "RefundButton": ".img-button-modify>input",
+    "PlusMinusIcon": "#refundqty1_edit>input",
+    "QtyTextField": "#refundqty1",
+    "CorrectSignButton": "#refundqty1_span>input:nth-of-type(2)",
+    "ReturnReasonCodeDropDownList1": "//select[@id='reasoncode1']",
+    "ReturnReasonCodeDropDownList2": "#returnCaseReasonCode",
+    "RefundAdyenButton": "#adyenbutton",
+    "RefundCreditNotesButton": "#creditnotebutton",
+    "RefundCompletedCheckBox": "#refundCompleted",
+    "RefundConfirmPopUpButton": ".ui-dialog-buttonset>button:nth-of-type(1)",
+    "RefundProceedLabel": ".ordercolumns.promotion",
+    "Logoutlink": "//a[text()='Logout']"
+  },
+
+  "DetailsOfOrder": {
+    "ReturnsTab": "//td/a[text()='Returns']",
+    "RefundJobStatusLabel": "//td/div[text()='Return Status:']/../div[2]"
+  }
+}

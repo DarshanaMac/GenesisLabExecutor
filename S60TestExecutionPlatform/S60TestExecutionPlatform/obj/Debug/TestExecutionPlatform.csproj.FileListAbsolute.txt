@@ -1,0 +1,15 @@
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\S60TestExecutionPlatform.dll
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\S60TestExecutionPlatform.pdb
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\Newtonsoft.Json.dll
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\nunit.framework.dll
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\RelevantCodes.ExtentReports.dll
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\WebDriver.dll
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\WebDriver.Support.dll
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\Newtonsoft.Json.xml
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\nunit.framework.xml
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\WebDriver.xml
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\bin\Debug\WebDriver.Support.xml
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\obj\Debug\TestExecutionPlatform.csproj.CoreCompileInputs.cache
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\obj\Debug\TestExecutionPlatform.csproj.CopyComplete
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\obj\Debug\S60TestExecutionPlatform.dll
+E:\Local_Drive\GenesisLab\Automation_Project\C-Framework\S60TestExecutionPlatform\S60TestExecutionPlatform\obj\Debug\S60TestExecutionPlatform.pdb

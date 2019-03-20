@@ -1,0 +1,23 @@
+﻿{
+  "LoginPage": {
+    "Username": "darshana.konara@s60.com.au",
+    "Password": "Darshana19**"
+  },
+
+  "OrdersPage": {
+    "OrderNumber": "DEV_30014411"
+  },
+
+  "CustomerSuiteLoginPage": {
+    "Username": "Kanchana.Liyanagamage@s60.com.au",
+    "Password": "Kancha19**"
+  },
+
+  "CustomerSuitePage": {
+    "Quantity": "1",
+    "ReturnReasonCode1": "TOO BIG",
+    "ReturnReasonCode2": "TOO SMALL",
+    "PaymentType": "Adyen",
+    "RefundProceedText": "Refund Processed"
+  }
+}

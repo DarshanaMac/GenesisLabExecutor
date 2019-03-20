@@ -1,0 +1,70 @@
+﻿{
+  "LoginPage": {
+    "ValidPassword": "12345678",
+    "ForgotPasswordEmail": "Darshana.Konara@s60.com.au"
+  },
+
+  "SearchItemsPage": {
+    "ItemName": "Brush"
+  },
+
+  "RegisterAccountPage": {
+    "FirstName": "Allon",
+    "LastName": "Rey",
+    "EmailAddress": "Allon.Rey@s60.com.au",
+    "ConfirmAddress": "Allon.Rey@s60.com.au",
+    "Password": "12345678",
+    "ConfirmPassword": "12345678"
+  },
+
+  "CheckoutPage": {
+    "ShipsterEmail": "appwsample3@mailinator.com",
+    "FirstName": "Mark",
+    "LastName": "Joe",
+    "Address1": "Aaron Hill Farm, Cragg Vale",
+    "Address2": "Millers Point",
+    "Country": "Australia",
+    "State": "NSW",
+    "Suburb": "Guernsey",
+    "PostCode": "GY1 2PZ",
+    "Phone": "0412121212",
+
+    "NewAddress": {
+      "Address1": "Sydney, St. Johns Street, St. Peter Portt",
+      "Address2": "Kensington",
+      "Country": "Australia",
+      "State": "NSW",
+      "Suburb": "Guernsey",
+      "PostCode": "GY1 2PZ"
+    },
+
+    "PaymentDetails": {
+      "CardHolderName": "John",
+      "CardNumber": "4988438843884305",
+      "MasterCardNumber": "5555555555554444",
+      "MasterCardType": "Master Card",
+      "ExpiryMonth": "October",
+      "ExpiryYear": "2020",
+      "SecurityCode": "737",
+      "GiftCardNumber": "502904197000045738",
+      "Pin": "1504"
+    }
+  },
+
+  "ProfilePage": {
+    "NewPassword": "Test1234",
+    "ConfirmPassword": "Test1234",
+    "NewFirstName": "Albert",
+    "NewLastName": "Oliver",
+    "FullName": "Albert Oliver"
+  },
+
+  "GiftCardPurchasePage": {
+    "YourName": "Kanchana",
+    "FriendsName": "Chinthana",
+    "FriendsEmail": "wbc@gmail.com",
+    "ConfirmFriendsEmail": "wbc@gmail.com",
+    "Message": "On Your Special Day",
+    "Amount": "50"
+  }
+}

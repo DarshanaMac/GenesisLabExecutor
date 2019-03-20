@@ -1,0 +1,257 @@
+﻿{
+  "LayoutPage": {
+    "CountryIcon": ".current-country>span",
+    "HomeHeaderTextLabel": ".header-promotion",
+    "LoginIcon": ".menu-utility-user>li>a>span:nth-of-type(1)",
+    "WishlistIcon": ".mini-wishlist-link",
+    "BagIcon": ".mini-cart-total>a",
+    "SearchIcon": ".icon-search",
+    "BardotLogo": ".primary-logo>a>img",
+    "BardotLink": ".actived>a",
+    "BardotJuniorLink": ".site-options>ul>li:nth-of-type(2)",
+    "RegisterLink": ".user-panel>div>a:nth-of-type(2)",
+    "LogoutLink": "#main> .container>div>#primary>h1>span:nth-of-type(2)>a",
+    "PopUpLabel": ".privacy_policy_message_box>h2",
+    "IAgreeButton": ".ui-dialog-buttonpane>div>button"
+  },
+
+  "HomePage": {
+    "Url": "/bardot-junior",
+    "MegaMenuItem": ".menu-category>li",
+    "SubMenuItems": ".menu-category>li:nth-of-type(1)>div>div>div:nth-of-type(1)>ul>li>a",
+    "Slider": "#homepage-slider",
+    "SearchIcon": ".icon-search",
+    "BardotLogo": ".primary-logo>a>img",
+    "AboutusPanel": ".footer-container-inner>div>div:nth-of-type(1)",
+    "HelpPanel": ".footer-container-inner>div>div:nth-of-type(2)",
+    "QuickLinksPanel": ".footer-container-inner>div>div:nth-of-type(3)",
+    "FollowUsPanel": ".footer-container-inner>div>div:nth-of-type(4)",
+    "SocialMediaLinks": ".footer-container-inner>div>div:nth-of-type(4)>div>ul>li",
+    "SearchLink": "a.search-icon",
+    "SearchTextField": ".search-outline #txtSearch",
+    "SearchResultBreadcrumb": "span.breadcrumb-element .breadcrumb-result-text",
+    "SearchButton": ".search-outline+.button"
+  },
+
+  "CategoryListingPage": {
+    "Url": "/clothing",
+    "PageHeaderTitle": ".container>h2",
+    "FilterOptionPanel": "#secondary",
+    "HideFilterButton": ".sort-outline>div>div:nth-of-type(2)>div:nth-of-type(1)",
+    "ShowFilterButton": ".hide-filters",
+    "BreadcrumbPanel": ".pagination",
+    "ProductItemList": "#search-result-items>li",
+    "WishlistIcon": "#primary>div:nth-of-type(1)>ul>li:nth-of-type(1)>div>div:nth-of-type(4)>a"
+  },
+
+  "ProductDetailsPage": {
+    "Url": "/bardot-junior/baby-000-2/boys-000-2/dobby-spot-shirt-4332TBB7.html?cgid=bardot-junior-baby-000-2-boys-000-2&dwvar_4332TBB7_color=194024#start=2",
+    "AddToCartButton": "#add-to-cart",
+    "ProductImage": ".primary-image",
+    "ProductDetailsPanel": ".toggle-section>li:nth-of-type(1)",
+    "ShippingDetailsPanel": ".toggle-section>li:nth-of-type(2)",
+    "ProductPriceText": ".toggle-section>li:nth-of-type(2)>div",
+    "SocialMediaIcon": ".socialsharing",
+    "ProductNameHeader": "#pdpMain>div>div>div:nth-of-type(2)>h1",
+    "WishlistIcon": ".product-add-to-cart>a:nth-of-type(1)",
+    "SwatchesSizeLinks": ".swatches.size>li",
+    "SwatchedColorLinks": ".swatches.color li:nth-of-type(1)",
+    "WishListIcon": ".product-add-to-cart>a"
+  },
+
+  "LoginPage": {
+    "Url": "/login",
+    "EmailTextField": "#dwfrm_login>fieldset>div>div:nth-of-type(1)>input",
+    "PasswordTextField": "#dwfrm_login>fieldset>div:nth-of-type(2)>div:nth-of-type(1)>input",
+    "LoginButton": "#dwfrm_login>fieldset>div:nth-of-type(3)>button"
+  },
+
+  "MyAccountPage": {
+    "Url": "/account",
+    "UserPanel": "#primary",
+    "ViewOrderPanel": ".account-options>li:nth-of-type(2)",
+    "PersonalDataTile": ".account-options>li:nth-of-type(1)",
+    "AddressesTile": ".account-options>li:nth-of-type(3)",
+    "WishlistTile": ".account-options>li:nth-of-type(4)",
+    "PaymentSettingsTile": ".account-options>li:nth-of-type(5)",
+    "LogOutLink": ".account-outline>div:nth-of-type(1)>h1>span:nth-of-type(2)>a",
+    "UserNameLabel": ".username"
+  },
+
+  "RegisterPage": {
+    "Url": "/bardot-junior/register",
+    "RegisterPageHeaderText": ".register-member>h2",
+    "FirstNameTextField": "#dwfrm_profile_customer_firstname",
+    "LastNameTextField": "#dwfrm_profile_customer_lastname",
+    "MobileTextField": "#dwfrm_profile_customer_mobile",
+    "DateOfBirthSection": "#RegistrationForm>fieldset>div:nth-of-type(4)",
+    "EmailTextField": "#dwfrm_profile_customer_email",
+    "PasswordTextField": "#RegistrationForm>fieldset>div:nth-of-type(8)>div>input",
+    "ConfirmPasswordTextField": "#RegistrationForm>fieldset>div:nth-of-type(9)>div>input",
+    "PreferencesPanel": ".register-group-preference",
+    "DateOfBirthDropDownList": "birth-daySelectBoxIt",
+    "MonthDropDownList": "birth-monthSelectBoxIt",
+    "YearDropDownList": "birth-yearSelectBoxIt",
+    "BardotCheckBox": "label[for='dwfrm_registration_bardotjunior']",
+    "RegistrationButton": "#registrationbtn"
+  },
+
+  "ContactUsPage": {
+    "Url": "https://help.bardot.com/hc/en-us",
+    "ContactusTile": ".categories>ul>li:nth-of-type(3)",
+    "PageHeader": "h1",
+    "PageContent": ".article-body"
+  },
+
+  "StoreLocatorPage": {
+    "Url": "/stores",
+    "SearchByCurrentLocationButton": "#btnSearchStoreByCurrentLocation",
+    "MaximumDistanceDropDownList": "dwfrm_storelocator_maxdistanceSelectBoxIt",
+    "PostcodeTextField": "#inputSearchStore",
+    "SearchButton": "#btnFindStore",
+    "StoreList": "#listStores .content-list-item"
+  },
+
+  "ShoppingCartPage": {
+    "Url": "/bardot-junior/my-bag",
+    "EmptyProductPageHeaderLabel": ".cart-empty>h1",
+    "ProductName": ".name>a",
+    "RemoveLink": ".item-user-actions .button-text",
+    "TotalPriceLabel": ".price-total",
+    "CheckoutButton": "#checkout-form>fieldset>button",
+    "EditLink": ".item-edit-details>a",
+    "ContinueShoppingLink": ".cart-actions.cart-actions-top>form>fieldset>button",
+    "PromotionTextField": "#dwfrm_cart_couponCode",
+    "AddPromotionButton": "#add-coupon"
+  },
+
+  "WishlistPage": {
+    "Url": "/wishlist",
+    "PageHeader": ".title-account",
+    "RemoveButton": "#primary .button-text.delete-item",
+    "ProductName": ".name>a",
+    "AddToBagButton": "#add-to-cart",
+    "ProductImage": ".product-img"
+  },
+
+  "ProfilePage": {
+    "Url": "/profile",
+    "FirstNameTextField": "#dwfrm_profile_customer_firstname",
+    "LastNameTextField": "#dwfrm_profile_customer_lastname",
+    "MobileTextField": "#dwfrm_profile_customer_mobile",
+    "DayDropDownList": "#birth-daySelectBoxIt",
+    "MonthDropDownList": "#birth-monthSelectBoxIt",
+    "YearDropDownList": "#birth-yearSelectBoxIt",
+    "EmailTextField": "#dwfrm_profile_customer_email",
+    "PasswordTextField": "#RegistrationForm>fieldset>div:nth-of-type(9)>div>input",
+    "ApplyButton": "#registrationbtn"
+  },
+
+  "ForgotPassword": {
+    "ForgotPasswordLink": "#password-reset",
+    "EmailTextField": "#dwfrm_requestpassword_email",
+    "SendButton": "#PasswordResetForm>fieldset>div:nth-of-type(2)>button"
+  },
+
+  "CheckoutPage": {
+    "Url": "/bardot-junior/checkout",
+    "CheckoutAsAGuestButton": "button[name='dwfrm_login_unregistered']"
+  },
+
+  "ShippingAddressPage": {
+    "Url": "/shipping",
+    "FirstNameTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_firstName",
+    "LastNameTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_lastName",
+    "Address1TextField": "#dwfrm_singleshipping_shippingAddress_addressFields_address1",
+    "StateDropDownList": "dwfrm_singleshipping_shippingAddress_addressFields_states_stateSelectBoxIt",
+    "CityTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_city",
+    "PhoneTextField": "#dwfrm_singleshipping_shippingAddress_addressFields_phone",
+    "BillingForShippingCheckbox": "label[for='dwfrm_singleshipping_shippingAddress_useAsBillingAddress']",
+    "ContinueToPaymentButton": "button[name='dwfrm_singleshipping_shippingAddress_save']"
+  },
+
+
+  "BillingAddressPage": {
+    "Url": "/singleshipping",
+    "BillingEmailAddressTextField": "#dwfrm_billing_billingAddress_email_emailAddress",
+    "FirstNameTextField": "#dwfrm_billing_billingAddress_addressFields_firstName",
+    "LastNameTextField": "#dwfrm_billing_billingAddress_addressFields_lastName",
+    "BusinessNameTextField": "#dwfrm_billing_billingAddress_addressFields_businessName",
+    "CityTextField": "#dwfrm_billing_billingAddress_addressFields_city",
+    "BillingAddressPlusButton": ".checkout-method>h3>i:nth-of-type(1)",
+    "BillingAddressMinusButton": ".checkout-method>h3>i:nth-of-type(2)",
+    "Address1TextField": "#dwfrm_billing_billingAddress_addressFields_address1",
+    "PromotionCodePlusButton": ".promotion-code>h4>i:nth-of-type(1)",
+    "PromotionCodeMinusButton": ".promotion-code>h4>i:nth-of-type(2)",
+    "PromotionCodeTextField": "#dwfrm_billing_couponCode",
+    "AddPromotionButton": "#add-coupon",
+    "BillingPhoneNumber": "#dwfrm_billing_billingAddress_addressFields_phone",
+    "GiftCardPlusButton": ".gift-card-code>h4>i:nth-of-type(1)",
+    "GiftCardMinusButton": ".gift-card-code>h4>i:nth-of-type(2)",
+    "GiftCardNumberTextField": ".gift-card-number.giftcart",
+    "GiftCardApplyButton": "#add-giftcert",
+    "GiftCardPinTextField": ".pin-number",
+    "CheckBalanceButton": "#check-giftcert",
+    "SelectCreditCardDropDownList": "creditCardListSelectBoxItText",
+    "NameOnCardTextField": "#dwfrm_billing_paymentMethods_creditCard_owner",
+    "VisaIcon": ".method-Visa",
+    "MasterIcon": ".method-MasterCard",
+    "AmexIcon": ".method-American.Express",
+    "AfterPayRadioButton": ".payment-method-options>div:nth-of-type(3)>div>div>label",
+    "PayPalRadioButton": ".payment-method-options>div:nth-of-type(2)>div>div>label",
+    "CardNumberTextField": "#paymentmethodcontainer>fieldset>div:nth-of-type(2)>div:nth-of-type(2)>div>input",
+    "ExpireMonthDropDownList": "dwfrm_billing_paymentMethods_creditCard_expiration_monthSelectBoxIt",
+    "ExpireYearDropDownList": "dwfrm_billing_paymentMethods_creditCard_expiration_yearSelectBoxIt",
+    "SecurityCodeTextField": "#paymentmethodcontainer>fieldset>div:nth-of-type(2)>div:nth-of-type(5)>div>input",
+    "SaveCardCheckbox": "label[for='dwfrm_billing_paymentMethods_creditCard_saveCard']",
+    "ContinueToPlaceOrderButton": "button[name='dwfrm_billing_save']"
+  },
+
+  "OrderSummaryPage": {
+    "Url": "/billing",
+    "Title": "a[title='Place Order']",
+    "PlaceOrderButton": ".cart-action-checkout button[value='Place Order']",
+    "ProductDetails": {
+      "Name": ".name>a",
+      "Price": ".price-total"
+    }
+  },
+
+  "PaypalLoginPage": {
+    "EmailTextField": "#email",
+    "PasswordTextField": "#password",
+    "LoginButton": "#btnLogin",
+    "PreferredShippingAddressCheckBox": "#makePreferred",
+    "PayNowButton": "//input[@id='confirmButtonTop']"
+  },
+
+  "AfterPayPage": {
+    "UsernameTextfield": "//input[@name='email']",
+    "ContinueButton": "//button[text()='Continue']",
+    "PasswordTextField": "//input[@name='password']",
+    "PopupConfirmation": "(//*[contains(text(),'Okay, got it!')])[1]",
+    "TermsAgreedCheckBox": "//input[@id='termsAgreed']",
+    "ConfirmPaymentButton": "//button[text()='Confirm']"
+  },
+
+
+  "PaypalCheckoutPage": {
+    "PayNowButton": "#button"
+  },
+
+  "OrdersPage": {
+    "Url": "/bardot-junior/orders",
+    "OrderPanels": ".order-history-list>li"
+  },
+
+  "OrderConfirmationPage": {
+    "Url": "/orderconfirmation",
+    "ConfirmationMessage": ".confirmation-message"
+  },
+
+  "Product": {
+    "Promotion": {
+      "Url": "/bardot-junior/baby-000-2/accessories/girls-accessories/hair-clips-and-headbands/int-toddler-girl-headband/baby-rib-stretch-headband-43328HRBB_PASTEL+YEL.html?svid=9351221663989"
+    }
+  }
+}

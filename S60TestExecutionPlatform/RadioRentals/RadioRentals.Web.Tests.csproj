@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E340A715-C562-48E9-B7BC-41C5B757B06F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RadioRentals</RootNamespace>
+    <AssemblyName>RadioRentals</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebDriver, Version=3.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.5.2\lib\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.5.2\lib\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions.cs" />
+    <Compile Include="Categories.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\ApplyOnline\BeforeYouApplyPageTests.cs" />
+    <Compile Include="Tests\ApplyOnline\IncomeExpenseDetailsPageHelper.cs" />
+    <Compile Include="Tests\ApplyOnline\IncomeExpenseDetailsPageTests.cs" />
+    <Compile Include="Tests\ApplyOnline\PersonalDetailsPageHelper.cs" />
+    <Compile Include="Tests\ApplyOnline\PersonalDetailsPageTests.cs" />
+    <Compile Include="Tests\ApplyOnline\RefereeDetailsPageHelper.cs" />
+    <Compile Include="Tests\ApplyOnline\RefereeDetailsPageTests.cs" />
+    <Compile Include="Tests\ApplyOnline\ResidentialDetailsPageHelper.cs" />
+    <Compile Include="Tests\ApplyOnline\ResidentialDetailsPageTests.cs" />
+    <Compile Include="Tests\Careers\CareersPageTests.cs" />
+    <Compile Include="Tests\Catalogue\CataloguePageTests.cs" />
+    <Compile Include="Tests\CategoryLanding\CategoryLandingPageTests.cs" />
+    <Compile Include="Tests\ChangePassword\ChangePasswordPageHelpers.cs" />
+    <Compile Include="Tests\ChangePassword\ChangePasswordPageTests.cs" />
+    <Compile Include="Tests\CompareWidgets\CompareWidgetsHelpers.cs" />
+    <Compile Include="Tests\CompareWidgets\CompareWidgetsTests.cs" />
+    <Compile Include="Tests\ContactUs\ContactUsPageTests.cs" />
+    <Compile Include="Tests\ForgotYourPassword\ForgotYourPasswordPageTests.cs" />
+    <Compile Include="Tests\HomePage\HomePageTests.cs" />
+    <Compile Include="Tests\Login\LoginPageTests.cs" />
+    <Compile Include="Tests\Navigation\NavigationMenuTests.cs" />
+    <Compile Include="Tests\OffersAndPromotionsPage\OffersAndPromotionsPageTests.cs" />
+    <Compile Include="Tests\OffersAndPromotionsPage\OffersAndPromotionsTestsHelper.cs" />
+    <Compile Include="Tests\ProductDetails\ProductDetailsPageTests.cs" />
+    <Compile Include="Tests\Profile\ProfilePageHelpers.cs" />
+    <Compile Include="Tests\Profile\ProfilePageTests.cs" />
+    <Compile Include="Tests\RegisterAccount\RegisterAccountPageHelper.cs" />
+    <Compile Include="Tests\RegisterAccount\RegisterAccountPageTests.cs" />
+    <Compile Include="Tests\Search\SearchOptionHelpers.cs" />
+    <Compile Include="Tests\Search\SearchOptionPageTests.cs" />
+    <Compile Include="Tests\ShippingAndBillingDetails\CheckoutPageHelpers.cs" />
+    <Compile Include="Tests\ShippingAndBillingDetails\CheckoutPageTests.cs" />
+    <Compile Include="Tests\ShoppingCart\ShoppingCartPageHelpers.cs" />
+    <Compile Include="Tests\ShoppingCart\ShoppingCartPageTests.cs" />
+    <Compile Include="Tests\StoreLocator\StoreLocatorPageHelper.cs" />
+    <Compile Include="Tests\StoreLocator\StoreLocatorPageTests.cs" />
+    <Compile Include="Tests\WishlistPage\WishlistPageTests.cs" />
+    <Compile Include="Tests\WishlistPage\WishlistPageTestsHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PageObjects\Pages.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TestData\TestData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\S60TestExecutionPlatform\S60TestExecutionPlatform.csproj">
+      <Project>{ac238c43-3980-45db-b3c0-c5aba8e150cf}</Project>
+      <Name>S60TestExecutionPlatform</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

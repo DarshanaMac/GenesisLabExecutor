@@ -1,0 +1,32 @@
+﻿{
+
+  "ShippingDetailsPage": {
+    "FirstName": "Darshana",
+    "LastName": "Konara",
+    "AddressLineOne": "Sydney Adventist College",
+    "City": "Sydney",
+    "ZipCode": "20000",
+    "Country": "United States",
+    "Phone": "333-333-3333",
+    "State": "Colorado"
+  },
+
+  "BillingDetailsPage": {
+    "FirstName": "Darshana",
+    "LastName": "Konara",
+    "AddressLineOne": "Sydney Adventist College",
+    "City": "Sydney",
+    "ZipCode": "20000",
+    "Country": "United States",
+    "Phone": "333-333-3333",
+    "EmailAddress": "test@yopmail.com",
+    "NameOnCard": "Darshana",
+    "CardType": "VISA",
+    "CardNumber": "4111111111111111",
+    "ExpirationMonth": "May",
+    "ExpirationYear": "2020",
+    "SecurityCode": "111"
+  }
+
+
+}

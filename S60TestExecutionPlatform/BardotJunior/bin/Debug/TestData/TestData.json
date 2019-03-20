@@ -1,0 +1,87 @@
+﻿{
+  "CategoryListingPage": {
+    "MenuItemPageHeader": "baby 000-2",
+    "SubMenuItemPageHeader": "boys 000-2"
+  },
+
+  "LoginPage": {
+    "ValidEmailAddress": "Darshana.Konara@s60.com.au",
+    "ValidPassword": "User@123"
+  },
+
+  "HomePage": {
+    "MegaMenuItemText": "junior 2-7"
+  },
+
+  "LayoutPage": {
+    "LoginText": "Login"
+  },
+
+  "RegisterPage": {
+    "FirstName": "Darshana",
+    "LastName": "Konara",
+    "EmptyFirstName": "",
+    "PhoneNumber": "61292507111",
+    "EmailAddress": "Darshana3.Konara@s60.com.au",
+    "Password": "User@123",
+    "ConfirmPassword": "User@123",
+    "Date": "5",
+    "Month": "May",
+    "Year": "1993"
+  },
+
+  "ShoppingCartPage": {
+    "EmptyProductPageHeader": "Your Shopping Cart is Empty"
+  },
+
+  "StoreLocatorPage": {
+    "MaximumDistance": "500 KM",
+    "PostCode": "2000"
+  },
+
+  "Search": {
+    "SearchText": "Shirt",
+    "SearchResultBreadcrumbText": "SEARCH RESULTS"
+  },
+
+  "ShippingAddressPage": {
+    "FirstName": "Darshana",
+    "LastName": "Konara",
+    "AddressLine1": "Sydney Adventist College",
+    "ShippingPhoneNumber": "0412121212"
+  },
+
+  "BillingAddressPage": {
+    "FirstName": "Darshana",
+    "LastName": "Konara",
+    "AddressLine1": "Sydney Adventist College",
+    "BillingPhoneNumber": "0412121212",
+    "CardHolderName": "Darshana",
+    "MasterCardNumber": "5555444433331111",
+    "VisaCardNumber": "4111111111111111",
+    "ExpirationMonth": "October",
+    "ExpirationYear": "2020",
+    "SecurityCode": "737",
+    "AMEXCardNumber": "374251018720018",
+    "AMEXSecurityCode": "7373",
+    "EmailAddress": "darshana.konara@s60.com.au",
+    "PromotionCode": "testone",
+    "GiftCardNumber": "502904194000087406",
+    "GiftCardPin": "4115",
+    "GuestUserAccountDetails": {
+      "AMEXCardNumber": "374251018720018",
+      "VisaCardNumber": "4012888888881881",
+      "MasterCardNumber": "5555555555554444"
+    }
+  },
+
+  "PaypalLoginPage": {
+    "EmailAddress": "vupham.verified@s60.com.au",
+    "Password": "bardotisawesome"
+  },
+
+  "AfterPayPaymentInfo": {
+    "EmailAddress": "lam.bui@s60.com.au",
+    "Password": "Fyetl2122`"
+  }
+}

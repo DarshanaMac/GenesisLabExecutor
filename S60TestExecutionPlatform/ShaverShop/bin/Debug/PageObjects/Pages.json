@@ -1,0 +1,264 @@
+﻿{
+  "LayoutPage": {
+    "CartIcon": ".mini-cart-total>a",
+    "ProfileLink": ".user-account",
+    "LoginLink": ".user-links>a:nth-of-type(1)",
+    "SearchTextField": "#simple-search-input",
+    "ViewCatalogueLink": ".header-banner-info:nth-of-type(2)>div>a",
+    "StoreFinderLink": "#navigation>ul:nth-of-type(1)>li:nth-of-type(1)>a",
+    "AccountLink": ".menu-utility-user>li:nth-of-type(2)>a",
+    "RegisterLink": ".menu-utility-user>li:nth-of-type(2)>div>div>a:nth-of-type(2)",
+    "TopLevelNavigationLinks": ".menu-category>li:nth-of-type(1)",
+    "ProfileNameLabel": ".user-account>span",
+    "TopLevelMenuItemsLink": "//ul[@class='menu-category level-1']/li[1]",
+    "SubMenuNavigationLInks": ".menu-horizontal>li:nth-of-type(1)>a:nth-of-type(2)",
+    "BottomLevelLinks": ".level-3>li:nth-of-type(1)>a:nth-of-type(1)"
+  },
+
+  "SearchPage": {
+    "Url": "/search",
+    "SearchItem": "#main>div:nth-of-type(2)>div:nth-of-type(1)>span>a"
+  },
+
+  "HomePage": {
+    "Url": "/",
+    "LogoImage": ".content-asset>p>img",
+    "ProductCategoryLink": ".menu-category>li:nth-of-type(1)>a",
+    "ContactUsLink": ".footer-link>div>ul:nth-of-type(1)>li:nth-of-type(2)>a"
+  },
+
+  "ProductDetailsPage": {
+    "Url": "/wahl/salon-series-v5000-hair-clipper-009123.html",
+    "BrandName": ".brand-name>a",
+    "ProductName": ".product-name",
+    "AddToCartButon": "//button[@id='add-to-cart']",
+    "ProductNameHeaderLabel": ".product-col-2>h1",
+    "SubscriptionRadioButton": "#dwfrm_product_addtocart_d0qfhqahwwhu>fieldset>div:nth-of-type(1)>div>div:nth-of-type(2)>div>input",
+    "DeliveryEveryDropDown": "everydeliverySelectBoxItText",
+    "AddToWishListButton": ".product-add-to-cart .add"
+  },
+
+  "LoginPage": {
+    "Url": "/login",
+    "PageHeaderLabel": ".heading-logincheckout",
+    "UserNameTextField": "#dwfrm_login>fieldset>div:nth-of-type(1)>input",
+    "PasswordTextField": "#dwfrm_login>fieldset>div:nth-of-type(2)>input",
+    "LoginButton": "#dwfrm_login>fieldset>div:nth-of-type(3)>button",
+    "ForgotPasswordLink": "#password-reset",
+    "ForgotPasswordPopTitle": ".forgot-outline>h1",
+    "ForgotEmailTextField": "#PasswordResetForm>fieldset>div>input",
+    "SendButton": "#PasswordResetForm>fieldset>button",
+    "RestRequestPopup": ".forgot-outline"
+  },
+
+  "RegisterAccountPage": {
+    "Url": "/register",
+    "CreateAccountPageHeader": ".address-outline>h1",
+    "FirstNameTextField": "#dwfrm_profile_customer_firstname",
+    "LastNameTextField": "#dwfrm_profile_customer_lastname",
+    "EmailTextField": "#dwfrm_profile_customer_email",
+    "ConfirmEmailTextField": "#dwfrm_profile_customer_emailconfirm",
+    "PasswordTextField": "#RegistrationForm>fieldset:nth-of-type(2)>div:nth-of-type(3)>input",
+    "ConfirmPasswordTextField": "#RegistrationForm>fieldset:nth-of-type(2)>div:nth-of-type(4)>input",
+    "ApplyButton": "#RegistrationForm>fieldset:nth-of-type(2)>div:nth-of-type(7)>button"
+  },
+
+  "ShoppingCartPage": {
+    "Url": "/cart",
+    "PageHeaderTitle": "h1",
+    "ItemNameLabel": ".name>a",
+    "CheckoutButton": ".button.large"
+  },
+
+  "CategoryLandingPage": {
+    "Url": "/men",
+    "CategoryHeaders": "#category-level-1",
+    "BrandNamesPanel": ".refinement.brand",
+    "ProductTypePanel": ".refinement.shaverShopProductType"
+  },
+
+  "AccountPage": {
+    "Url": "/account",
+    "AccountOptionPanel": ".account-options",
+    "PersonalDataLink": ".account-options>li:nth-of-type(1)>a",
+    "OrdersLink": ".account-options.clearfix>li:nth-of-type(2)>a",
+    "LogoutLink": ".account-logout>a"
+  },
+
+  "Product": {
+    "Shipster": {
+      "Url": "/wahl/salon-series-v5000-hair-clipper-009123.html"
+    },
+
+    "Subscription": {
+      "Url": "/remington/quick-shave-electric-shaver-009105.html"
+    }
+  },
+
+  "CategoryListingPage": {
+    "Url": "/men",
+    "ProductTiles": ".search-result-content #search-result-items>li",
+    "ClearAllFiltersButton": "#secondary .button.gray",
+    "BrandFilter": ".refinement.brand"
+  },
+
+  "ElectricShaversPage": {
+    "Url": "/electric-shavers"
+  },
+
+  "AllElectricShavers": {
+    "Url": "/all-electric-shavers"
+  },
+
+  "ContactUsPage": {
+    "Url": "/contactus",
+    "FormTitle": ".static-section>h2>strong",
+    "FirstNameTextField": "#dwfrm_contactus_firstname",
+    "LastNameTextField": "#dwfrm_contactus_lastname",
+    "EmailTextField": "#dwfrm_contactus_email",
+    "PhoneTextField": "#dwfrm_contactus_phone",
+    "LocationTextField": "#dwfrm_contactus_location",
+    "PostcodeTextField": "#dwfrm_contactus_postcode",
+    "OrderNumberTextField": "#dwfrm_contactus_ordernumber",
+    "GeneralInfomationDropDown": "#dwfrm_contactus_myquestionSelectBoxItText",
+    "EnquiryTextArea": "#dwfrm_contactus_comment"
+  },
+
+  "CheckoutPage": {
+    "Url": "/checkout",
+    "AddNewAddress": ".bl-address-book .actions>div:nth-of-type(2)>a:nth-of-type(2)",
+    "PlaceOrderButton": "#btn-place-order",
+
+    "EmailAddress": {
+      "EmailEditButton": ".show-email-address+button",
+      "ShipsterLogo": ".shipter-verify .shipster-cart>img",
+      "EmailTextField": "#txtAddEmail",
+      "SaveButton": "#frmAddEmail .button.btn-save"
+    },
+
+    "AddressDetails": {
+      "FirstNameTextField": "#dwfrm_profile_spcbillingaddress_firstName",
+      "LastNameTextField": "#dwfrm_profile_spcbillingaddress_lastName",
+      "Address1TextField": "#dwfrm_profile_spcbillingaddress_address1",
+      "Address2TextField": "#dwfrm_profile_spcbillingaddress_address2",
+      "EditAddressButton": "#billing>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>a",
+      "CountryDropDownList": "dwfrm_profile_spcbillingaddress_countrySelectBoxIt",
+      "StateTextField": "#dwfrm_profile_spcbillingaddress_states_state",
+      "SuburbTextField": "#dwfrm_profile_spcbillingaddress_city",
+      "PostCodeTextField": "#dwfrm_profile_spcbillingaddress_postal",
+      "PhoneTextField": "#dwfrm_profile_spcbillingaddress_phone",
+      "ContinueToStep2Button": "#billing-address-form>fieldset>div:nth-of-type(12)>button:nth-of-type(1)",
+      "StorePickUpLink": ".btn-switch.store-link",
+      "SelectAStoreButon": ".btn.select-store",
+      "CountryList": "dwfrm_profile_spcbillingaddress_country",
+      "BillingAddressRadioButton": ".address-account>div:nth-of-type(1)>input"
+    },
+
+    "PaymentDetails": {
+      "AfterPayRadioButton": "#frmPayment .select-card>div:nth-of-type(4)",
+      "ZipPayRadioButton": "#frmPayment .select-card>div:nth-of-type(3)",
+      "DoYouHaveCouponCheckBox": "#primary>section:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(2)",
+      "GiftVoucherTextField": "#txtGiftVoucher",
+      "PinTextField": "#txtGiftPin",
+      "ApplyButton": ".button.apply-gift",
+      "PayPalRadioButon": "#frmPayment .select-card>div:nth-of-type(2)",
+      "PaymentDetailsPageHeaderTitle": ".delivery>div>h2",
+      "CardHolderNameTextField": "#card_owner",
+      "CardTypeDropDownList": "card_typeSelectBoxIt",
+      "CardNumberTextField": "#card_number",
+      "CardExpiryMonthDropDownList": "card_expiry_monthSelectBoxIt",
+      "CardExpiryYearDropDownList": "card_expiry_yearSelectBoxIt",
+      "SecurityCodeTextField": "#frmPayment>fieldset>div:nth-of-type(2)>div:nth-of-type(5)>input"
+    },
+
+    "StorePickUp": {
+      "StorePickUpLink": ".store-link",
+      "SelectAStoreButton": ".select-store",
+      "StoreList": ".select"
+    }
+  },
+
+  "PayPalPage": {
+    "Url": "https://test.adyen.com/hpp/pay.shtml",
+    "Process": {
+      "PayButton": ".paySubmit.paySubmitpaypal"
+    },
+
+    "PayPalLogin": {
+      "UsernameTextField": "#email",
+      "PasswordTextField": "#password",
+      "LoginButton": "#btnLogin",
+      "Frame": "injectedUl"
+    },
+
+    "PayPalReview": {
+      "Iframe": "injectedUl",
+      "PayNowButton": "#confirmButtonTop"
+    }
+  },
+
+  "AfterpayPage": {
+    "EmailTextField": "//input[@name='email']",
+    "PasswordTextField": "//input[@name='password']",
+    "ContinueButton": "//button[text()='Continue']",
+    "AllowButton": "//button[text()='Okay, got it!']",
+    "TermsAgreedCheckBox": "//input[@id='termsAgreed']",
+    "ConfirmationButton": "//button[text()='Confirm']"
+  },
+
+  "OrderConfirmationPage": {
+    "OrderConfirmationPageHeaderTitle": ".orderconfirmation.confirmation.not-create-account>h1",
+    "OrderNumberLabel": ".order-number>span:nth-of-type(2)"
+  },
+
+  "ProfilePage": {
+    "Url": "/profile",
+    "FirstNameTextField": "#dwfrm_profile_customer_firstname",
+    "LastNameTextField": "#dwfrm_profile_customer_lastname",
+    "EmailTextField": "#dwfrm_profile_customer_email",
+    "ConfirmEmailTextField": "#dwfrm_profile_customer_emailconfirm",
+    "PasswordTextField": "#RegistrationForm>fieldset:nth-of-type(2)>div:nth-of-type(3)>input",
+    "ChangePasswordHeaderTitle": "#ChangePassowrdForm>fieldset>legend",
+    "CurrentPasswordTextField": "#ChangePassowrdForm>fieldset>div:nth-of-type(1)>input",
+    "NewPasswordTextField": "#ChangePassowrdForm>fieldset>div:nth-of-type(2)>input",
+    "ConfirmNewPasswordTextField": "#ChangePassowrdForm>fieldset>div:nth-of-type(3)>input",
+    "EditAccountApplyButton": "#RegistrationForm>fieldset:nth-of-type(2)>div:nth-of-type(6)>button",
+    "ApplyButton": "#ChangePassowrdForm>fieldset>div:nth-of-type(4)>button"
+  },
+
+  "GiftCardPurchasePage": {
+    "Url": "/giftcertpurchase",
+    "PageHeaderTitle": ".gift-certificate-outline>h1",
+    "YourNameTextField": "#dwfrm_giftcert_purchase_from",
+    "FriendsNameTextField": "#dwfrm_giftcert_purchase_recipient",
+    "FriendsEmailTextField": "#dwfrm_giftcert_purchase_recipientEmail",
+    "ConfirmFriendsEmailTextField": "#dwfrm_giftcert_purchase_confirmRecipientEmail",
+    "MessageTextField": "#dwfrm_giftcert_purchase_message",
+    "AmountTextField": "#dwfrm_giftcert_purchase_amount",
+    "AddToCartButton": "#AddToBasketButton",
+    "VoucherNumber": "#dwfrm_giftcert_balance_giftCertID",
+    "Pin": "#dwfrm_giftcert_balance_PIN"
+  },
+
+  "OrdersPage": {
+    "Url": "/orders",
+    "OrdersListItems": ".search-result-items>li",
+    "HeaderTitle": "#primary>h1",
+    "OrderDetailsButton": ".search-result-items>li:nth-of-type(1)>div:nth-of-type(1)>button"
+  },
+
+  "OrderDetailsPage": {
+    "Url": "/Order-Orders",
+    "OrderNumber": ".order-number>span:nth-of-type(1)",
+    "OrderSummaryPanel": ".orderdetails",
+    "BillingAddressSection": ".order-billing",
+    "PaymentAddressSection": ".order-payment-instruments",
+    "PaymentSummarySection": ".order-payment-summary",
+    "ShipmentsDetailsSection": ".order-shipments"
+  },
+
+  "WishlistPage": {
+    "Url": "/wishlist",
+    "ItemName": ".name>a"
+  }
+}
